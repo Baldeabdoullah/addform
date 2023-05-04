@@ -1,0 +1,134 @@
+// constant
+
+// var is old since the beginning globalist same constante
+
+// let and const in es6 2015
+
+// with let we can reasign a variable but we can't with const
+
+// const name = "john";
+// const age = 30;
+
+// // concatenation
+// console.log("my name is " + name + "and i am " + age);
+
+// //template strings
+
+// console.log(`My name is ${name} and  i am ${age}`);
+
+// const s = "technologie, computers, it, code";
+// console.log(s.split(", "));
+
+// arrays et variables contenant de multiples valeurs
+
+// const fruits = ["apples", "oranges", "pears", 10, "true"];
+
+// fruits[3] = "grappes";
+
+// fruits.push("mangos");
+
+// console.log(fruits);
+
+// const person = {
+//   firstName: "john",
+//   lastName: "doe",
+//   age: 30,
+//   hobbies: ["music", "movies", "sports"],
+
+//   address: {
+//     street: "50 main st",
+//     city: "Boston",
+//     state: "MA",
+//   },
+// };
+
+// person.email = "john@email.com";
+// console.log(person);
+
+// const todos = [
+//   {
+//     id: 1,
+//     Text: "Take out trash",
+//     isCompleted: true,
+//   },
+
+//   {
+//     id: 2,
+//     Text: "Meeting with boss",
+//     isCompleted: true,
+//   },
+
+//   {
+//     id: 3,
+//     Text: "Dentist appointement",
+//     isCompleted: false,
+//   },
+// ];
+
+// // for
+
+// for (let i = 0; i <= 10; i++) {
+//   console.log(`for loop Number: ${i}`);
+// }
+
+// // while
+// let i = 0;
+// while (i < 10) {
+//   console.log(`for loop Number: ${i}`);
+//   i++;
+// }
+
+// conditions
+
+// const x = 7;
+// const y = 14;
+
+// if (x > 5 && y > 10) {
+//   console.log("x is more than 5 or y is more than 10");
+// }
+
+// function
+
+// const addNums = (num1, num2) => console.log(num1 + num2);
+
+// addNums(5, 4);
+
+// oop ES5
+// constructor function
+// function Person(firstName, lastName, dob) {
+//   this.firstName = firstName;
+//   this.lastName = lastName;
+//   this.dob = new Date(dob);
+// }
+
+// Person.prototype.getBirthYear = function () {
+//   return this.dob.getFullYear();
+// };
+// Person.prototype.getFullName = function () {
+//   return `${this.firstName} ${this.lastName}`;
+// };
+
+// oop avec Class
+
+// class Person {
+//   constructor(firstName, lastName, dob) {
+//     this.firstName = firstName;
+//     this.lastName = lastName;
+//     this.dob = new Date(dob);
+//   }
+
+//   getBirthYear() {
+//     return this.dob.getFullYear();
+//   }
+
+//   getFullName() {
+//     return `${this.firstName} ${this.lastName}`;
+//   }
+// }
+
+// // instantiate object
+
+// const person1 = new Person("john", "doe", "4-3-1980");
+// const person2 = new Person("Mary", "Smith", "3-6-1970");
+
+// console.log(person1.getFullName());
